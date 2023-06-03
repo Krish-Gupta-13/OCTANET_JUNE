@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@500&family=Fraunces:ital,opsz,wght@1,9..144,300&family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@500&family=Fraunces:ital,opsz,wght@1,9..144,300&family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@500&family=Fraunces:ital,opsz,wght@1,9..144,300&family=Ibarra+Real+Nova&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header {
+    z-index: 100;
+    position: fixed;
+    background-color: rgba(56, 32, 32, 0.233);
+    color: white;
+}
+
+.header h1 {
+    font-family: 'cinzel', sans-serif;
+    position: relative;
+    justify-content: center;
+    align-items: left;
+    font-size: 3rem;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.header h1 a:hover {
+    color: brown;
+    text-decoration: underline .2rem;
+}
+
+
+.header .navbar .nav-list ul {
+    margin-left: 25rem;
+    display: flex;
+    list-style: none;
+}
+.navbar .nav-list li:hover::after {
+    transform: translateX(-50%) scale(1);
+}
+
+.navbar .nav-list li::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: .2rem;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    bottom: 0;
+    transition: .6s ease transform;
+}
+
+.header .navbar .nav-list ul a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header .navbar .nav-list ul li:hover a {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.header .navbar .nav-list ul li {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    justify-content: space-between;
+    padding: .7rem;
+}
+
+
+/* <---------------------------------------------------> */
+
+
+.home {
+    height: 46.45rem;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background: url('coffee.jpg')no-repeat center center/cover;
+    /* opacity: .8; */
+}
+
+.home .hc h1 {
+    position: relative;
+    justify-content: center;
+    align-items: right;
+    font-family: 'cinzel', sans-serif;
+    font-size: 2.6rem;
+    margin-left: 5%;
+}
+
+.home .hc p {
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    color: rgb(246, 249, 246);
+    position: relative;
+    justify-content: center;
+    align-items: right;
+    margin-right: 38%;
+    margin-bottom: 4rem;
+    margin-left: 5%;
+}
+
+.hc .home-button {
+    position: relative;
+    /* text-decoration: none; */
+    margin-left: 15%;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.home-button:hover {
+    color: brown;
+}
+
+
+
+
+  
+
